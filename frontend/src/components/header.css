@@ -1,0 +1,25 @@
+
+
+
+
+.header {
+    
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    height: 30px;
+}
+
+.header, h1{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.home, .login, .username, .logout{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+}

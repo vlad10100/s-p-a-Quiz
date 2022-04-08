@@ -1,0 +1,63 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body{
+    text-align: center;
+}
+
+.login-page{
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    margin-top: 50px;
+    padding: 30px 10px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+form h4, hr{
+    color: black;
+    font-size: 20px;
+    margin: 0px;
+}
+
+form input{
+    padding: 10px;
+    margin: 5px;
+}
+
+form label{
+    color: black;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+
+
+
+.homepage #question{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+.homepage #submit{
+    margin: 20px; 
+}
+
+
+.quizBoard p{
+    margin: 0px;
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+}
